@@ -1,0 +1,15 @@
+/*Sobre mi, foto y letra*/
+.about-me{
+    background-color: rgb(243, 221, 214);
+}
+/*Foto de perfil*/
+.rounded-circle.w-100{
+    width: 100%;
+    z-index: 1;
+    height: 60vh;
+    margin-top: -4.5rem;
+    margin-left: 1rem;
+    background-color: transparent;
+    transform: none;
+    position: relative;
+}

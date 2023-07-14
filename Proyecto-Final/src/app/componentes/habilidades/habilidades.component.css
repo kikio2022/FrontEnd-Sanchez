@@ -1,0 +1,16 @@
+/*Skills*/
+.skills{
+    background-color: rgb(255, 214, 231);
+}
+.progress-bar.bg-succes{
+    width: 50%;
+}
+.progress-bar.bg-info{
+    width: 50%;
+}
+.progress-bar.bg-warning{
+    width: 50%;
+}
+.progress-bar.bg-danger{
+    width: 50%;
+}

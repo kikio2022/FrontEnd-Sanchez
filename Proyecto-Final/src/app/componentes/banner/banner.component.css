@@ -1,0 +1,18 @@
+/*Carrusel-banner*/   
+.carousel-item{
+    width: 100%;
+     margin-top: 4.5rem;
+    transition: 4s;
+}
+.slide img{
+    height: 70vh;
+    
+}
+h1{
+    color: #7ffc66fd;
+    font: 3em sans-serif;
+}
+h1:hover{
+    transform: translateY(-25%);
+    
+}

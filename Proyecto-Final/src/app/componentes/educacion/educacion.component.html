@@ -1,32 +1,20 @@
 <!-- educacion-->
 <section class="Educacion">
     <div class="container text-center">
-      <div class="row">
+      <div class="row" *ngFor="let certificados of certificado;">
         <div class="col-md-3 mt-3">
           <h4 class="mt-5 pt-5"><strong>EDUCACION:</strong></h4>
-          <h5>Secundario Completo I.P.E.M N° 138, Cursos Realizados: Manicuria de Spa, Bertoldi, curso basico de computacion(word,excel,power point), Peluqueria y Ingles.</h5> 
+          <h5>{{certificados.text}}</h5> 
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="container-fluid">
-          <img src="/assets/IMG/Seprogramar.jpg" alt="se programar" class="rounded w-100 estudio"> 
+        <div class="col-md-9">
+          <div class="card-deck">
+            <div class="card" *ngFor="let card of certificados.cards;">
+              <div class="container-fluid">
+          <img [src]="card.img" alt="se programar" class="rounded w-100 estudio"> 
         </div>
-          </div> 
-        </div> 
-        <div class="col-md-3">
-          <div class="card">
-            <div class="container-fluid">
-          <img src="/assets/IMG/ingles-cui.png" alt="ingles-cui" class="rounded w-100 estudio"> 
-        </div>
-          </div> 
-        </div>  
-        <div class="col-md-3">
-          <div class="card">
-            <div class="container-fluid">
-          <img src="/assets/IMG/certificadoExcel.jpg" alt="excel" class="rounded w-100 estudio"> 
-        </div>
-          </div> 
-        </div>  
+      </div>
     </div>
   </div>
-        </section>
+</div>
+</div>
+</section>

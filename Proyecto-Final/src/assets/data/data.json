@@ -1,94 +1,99 @@
 {
-"logo":
-{ 
-  "img":  "/assets/IMG/logo2023.png"
-},
-
-"redes":[
-    {
-"id": 0,
-"icono": "fa-instagram",
-"url": "https://www.instagram.com/irissanchez4202"
-},
-{
-    "id": 1,
-    "icono": "fa-github",
-    "url": "https://github.com/kikio2022"  
-},
-{
-    "id": 2,
-    "icono": "fa-facebook",
-    "url": "https://www.facebook.com/iris.sanchez.334491"  
-}
-],
-"carousel": [
+    "logoImg": "/assets/IMG/logo2023.png",
+      "botonLogin": {
+        "icono": "fa-brands fa-user-lock fa-2x",
+        "url": "/"
+      },  
+        
+    "redes":[
     {
         "id": 0,
-        "img": "/assets/IMG/pexels-luis-gomes-546819.jpg",
-        "text": "HOLA, SOY IRIS"
-    },
-    {
-        "id": 1,
-        "img": "/assets/IMG/pexels-sharad-kachhi-3937174.jpg",
-        "text": "SEGUIME!"   
-    },
-    {
-        "id": 2,
-        "img": "/assets/IMG/pexels-tom-swinnen-1309766.jpg",
-        "text": "CONTACTAME!"    
-    }
-],
-"about": 
-    {
-        "img": "/assets/IMG/iris2.jpg",
-        "nombre": "Iris Noemi Sanchez",
-        "puesto": "Full Stack Developer Jr.",
-         "text": "Hola mi nombre es Iris Noemi Sanchez, soy de Mendiolaza, Córdoba. Hice trabajos varios. Estoy buscando nuevos rumbos, que me conduzcan a nuevas experiencias, por ello incursiono en la programación con el claro objetivo de formarme e informarme para realizar dicha tarea, (porque creo que uno nunca deja de aprender) quiero seguir hasta el final de este camino y ver a donde conduce,soy flexible, compañera y me gusta probarme a mi misma."
+        "icono": "fa-brands fa-instagram fa-2x",
+        "url": "https://www.instagram.com/irissanchez4202"
         },
-   
-
-"educacion": 
-    {
-        "text": "Secundario Completo I.P.E.M N° 138, Cursos Realizados: Manicuria de Spa, Bertoldi, curso basico de computacion(word,excel,power point), Peluqueria y Ingles."
-    },
-
-        "certificados": [
+        {
+            "id": 1,
+            "icono": "fa-brands fa-github fa-2x",
+            "url": "https://github.com/kikio2022"  
+        },
+        {
+            "id": 2,
+            "icono": "fa-brands fa-facebook fa-2x",
+            "url": "https://www.facebook.com/iris.sanchez.334491"  
+        }
+        ],
+        
+        
+        "carousel": [
             {
-              "id": 0,
-              "img": "/assets/IMG/Seprogramar.jpg"  
+                "id": 0,
+                "img": "/assets/IMG/pexels-luis-gomes-546819.jpg",
+                "text": "HOLA, SOY IRIS"
             },
             {
                 "id": 1,
-                "img": "/assets/IMG/ingles-cui.png"    
+                "img": "/assets/IMG/pexels-sharad-kachhi-3937174.jpg",
+                "text": "SEGUIME!"   
             },
             {
                 "id": 2,
-                "img": "/assets/IMG/certificadoExcel.jpg"    
-            },
-            {
-                "id": 3,
-                "img": "/assets/IMG/Universidad de Mendiolaza.jpg"  
+                "img": "/assets/IMG/pexels-tom-swinnen-1309766.jpg",
+                "text": "CONTACTAME!"    
             }
         ],
-    
+        "about": 
+                {
+                "img": "/assets/IMG/iris2.jpg",
+                "nombre": "Iris Noemi Sanchez",
+                "puesto": "Full Stack Developer Jr.",
+                    "text": "Hola mi nombre es Iris Noemi Sanchez, soy de Mendiolaza, Córdoba. Hice trabajos varios. Estoy buscando nuevos rumbos, que me conduzcan a nuevas experiencias, por ello incursiono en la programación con el claro objetivo de formarme e informarme para realizar dicha tarea, (porque creo que uno nunca deja de aprender) quiero seguir hasta el final de este camino y ver a donde conduce,soy flexible, compañera y me gusta probarme a mi misma."
+                 },
+            
 
-"experiencia": 
-    {
-        "text": "Realice trabajos como: cajera, niñera, realizacion de cortinas y en la zona de empaque en una fabrica de calzados. Me gusta trabajar, seguir una linea de trabajo, y aprender es lo que mas me motiva si bien no tengo una hoja de vida digamos a la altura, eso no quiere decir que no este dispuesta a enfrentar nuevo retos y desafios solo estoy a la espera de oportunidades."
-    },
+     "educacion": [ 
+                {
+                    "text": "Secundario Completo I.P.E.M N° 138, Cursos Realizados: Manicuria de Spa, Bertoldi, curso basico de computacion(word,excel,power point), Peluqueria y Ingles.",
+                
 
-"footer": 
-    {
-        "text1": "Copyright Iris Noemi Sanchez -2023 Argentina Programa", 
-        "text2": "Córdoba, Argentina"
-    },
+        "cards": [
+                        {
+                            "id": 0,
+                            "img": "/assets/IMG/Seprogramar.jpg"  
+                        },
+                        {
+                            "id": 1,
+                            "img": "/assets/IMG/ingles-cui.png"    
+                        },
+                        {
+                            "id": 2,
+                            "img": "/assets/IMG/certificadoExcel.jpg"    
+                        },
+                        {
+                            "id": 3,
+                            "img": "/assets/IMG/Universidad de Mendiolaza.jpg"  
+                        }
+                        ]
+                    }
+                    ],
+                
 
-"proyectos": 
-    {
-        "card": "/assets/IMG/logo2023.png",
-        "link": "https://argentinaprograma.inti.gob.ar",
-        "boton": "#YO PROGRAMO"
-    }
+            "experiencia": 
+                {
+                    "text": "Realice trabajos como: cajera, niñera, realizacion de cortinas y en la zona de empaque en una fabrica de calzados. Me gusta trabajar, seguir una linea de trabajo, y aprender es lo que mas me motiva si bien no tengo una hoja de vida digamos a la altura, eso no quiere decir que no este dispuesta a enfrentar nuevo retos y desafios solo estoy a la espera de oportunidades."
+                },
+
+            "footer": 
+                {
+                    "text1": "Copyright Iris Noemi Sanchez -2023 Argentina Programa", 
+                    "text2": "Córdoba, Argentina"
+                },
+
+            "proyectos": 
+                {
+                    "card": "/assets/IMG/logo2023.png",
+                    "link": "https://argentinaprograma.inti.gob.ar",
+                    "boton": "#YO PROGRAMO"
+                }
 
 
 }

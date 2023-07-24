@@ -15,8 +15,8 @@ url: string = '';
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data =>{
       console.log(data);
-      this.icono=data.botonLogin;
-      this.url=data.botonLogin;
+      this.icono=data.botonLogin.icono;
+      this.url=data.botonLogin.url;
     })
   }
 }

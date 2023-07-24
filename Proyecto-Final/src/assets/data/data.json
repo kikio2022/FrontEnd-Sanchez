@@ -1,8 +1,9 @@
 {
     "logoImg": "/assets/IMG/logo2023.png",
+
       "botonLogin": {
-        "icono": "fa-brands fa-user-lock fa-2x",
-        "url": "/"
+        "icono": "fa-solid fa-user-lock fa-2x",
+        "url": "/login"
       },  
         
     "redes":[

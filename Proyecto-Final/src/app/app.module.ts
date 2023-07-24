@@ -17,6 +17,7 @@ import { CircleProgressComponent } from './componentes/circle-progress/circle-pr
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { RedesComponent } from './componentes/redes/redes.component';
 import { BotonLoginComponent } from './componentes/boton-login/boton-login.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BotonLoginComponent } from './componentes/boton-login/boton-login.compo
     FooterComponent,
     CircleProgressComponent,
     RedesComponent,
-    BotonLoginComponent
+    BotonLoginComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

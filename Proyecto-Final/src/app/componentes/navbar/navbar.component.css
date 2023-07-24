@@ -8,8 +8,3 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aeb3ba",endColorstr="#e9a4e1",GradientType=1);
 }
    
-i.fa-solid.fa-user-lock.fa-2x:hover{
-color:#c78ef5;
-transition: transform o.3s ease-in-out;
-    transform: scale(1.55);
-} 

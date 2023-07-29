@@ -7,71 +7,31 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
-
-
-
-
-
-
-/*Login*/
-.login{
-    margin-top: 10rem;
+.bg-dark{
+    background: rgb(174,179,186);
+    background: -moz-linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
+    background: -webkit-linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
+    background: linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aeb3ba",endColorstr="#e9a4e1",GradientType=1);
 }
-.login{
-    height: 94vh;
-}
-body.login { 
-    background-image: url(/ASSETS/IMG/pexels-pixabay-414548.jpg);
-    background-position: center;
-    background-size: cover;
-    
-}
-/*Admin*/
-.admin{
-    font-size: 1.5rem;
-}
+   
+
+
+
+
+
+
+
+
 .link{
     text-decoration:none;
     color: #ffff;
 }
 
-/*Panel*/
-nav.vertical{
-    float: left;
-    margin-left: 0.5rem;
-    margin-top: 1rem;
-    
-} 
-li.vertical{
-    display: block;
-    margin: 0;
-    writing-mode: vertical;
-    padding: 0.5rem 0;
-    font-size: 1.5rem;
-   } 
-  
 
-.footer.bg-dark{
-    bottom: 0;
-    position:fixed;
-    transform: none;
-    width: 100%;
-}
 
-.tab-content{
-    margin-top: 4.5rem;
-}
-/*Dashboard*/
-.panal{
-    margin-top: 9rem;
-}
 
-.btn-secondary:hover{
-    opacity: 0.75;
-    color: #c94291;
-}
- body.panel{
-    background-color: rgb(241, 223, 241);
- }  
+
+
+
  

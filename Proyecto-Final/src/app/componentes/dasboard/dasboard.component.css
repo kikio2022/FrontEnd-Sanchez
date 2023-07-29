@@ -1,0 +1,26 @@
+i.fa-solid.fa-user.fa-2x{  
+    color:#fff;
+    
+    }
+    .list-group{
+        --bs-list-group-bg: transparent;
+        --bs-list-group-border-color: transparent;
+    }
+    body.dashboard{ 
+        background-image: url(/assets/IMG/imagen-3.jpg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .dashboard{
+        margin-top: -4rem;
+    }
+    /*Dashboard*/
+.panal{
+    margin-top: 9rem;
+}
+
+.btn-secondary:hover{
+    opacity: 0.75;
+    color: #c94291;
+}

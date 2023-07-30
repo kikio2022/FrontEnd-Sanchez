@@ -1,16 +1,5 @@
 /*Login*/
-.login{
-    margin-top: 6rem;
-}
-.login{
-    height: 100vh;
-}
-body.login { 
-    background-image: url(/assets/IMG/imagen-3.jpg);
-    background-position: center;
-    background-size: cover;
-    
-}
+
 i.fa-solid.fa-user-lock.fa-2x{  
     color:#fff;
     

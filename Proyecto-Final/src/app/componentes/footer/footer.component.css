@@ -5,3 +5,9 @@
     background: linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aeb3ba",endColorstr="#e9a4e1",GradientType=1);
 }
+.footer.bg-dark{
+    bottom: 0;
+    position:fixed;
+    transform: none;
+    width: 100%;
+}

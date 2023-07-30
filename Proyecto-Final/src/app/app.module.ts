@@ -21,6 +21,14 @@ import { LoginComponent } from './componentes/login/login.component';
 import { ProjectComponent } from './componentes/project/project.component';
 import { DasboardComponent } from './componentes/dasboard/dasboard.component';
 import { ErrorComponent } from './componentes/error/error.component';
+import { SocialComponent } from './modales/social/social.component';
+import { CarouselComponent } from './modales/carousel/carousel.component';
+import { InfoComponent } from './modales/info/info.component';
+import { EduComponent } from './modales/edu/edu.component';
+import { ExpComponent } from './modales/exp/exp.component';
+import { SkillsComponent } from './modales/skills/skills.component';
+import { WorkComponent } from './modales/work/work.component';
+import { AccesoComponent } from './modales/acceso/acceso.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +47,16 @@ import { ErrorComponent } from './componentes/error/error.component';
     LoginComponent,
     ProjectComponent,
     DasboardComponent,
-    ErrorComponent
+    ErrorComponent,
+    SocialComponent,
+    CarouselComponent,
+    InfoComponent,
+    EduComponent,
+    ExpComponent,
+    SkillsComponent,
+    WorkComponent,
+    AccesoComponent,
+  
   ],
   imports: [
     BrowserModule,

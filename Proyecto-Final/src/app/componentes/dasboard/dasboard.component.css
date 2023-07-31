@@ -24,3 +24,11 @@ i.fa-solid.fa-user.fa-2x{
     opacity: 0.75;
     color: #c94291;
 }
+h1{
+    color: #e209d0fd;
+    font: 3em sans-serif;
+}
+h1:hover{
+    transform: translateY(-25%);
+    
+}

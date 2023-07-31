@@ -8,66 +8,32 @@
           <ul class="list-group list-group-horizontal">
             <li class="list-group-item">
                  <!--boton que envia al login-->
-                 <a title="login" href="Login.html"><i class="fa-solid fa-user fa-2x"></i></a>
+                 <a title="login" href=""><i class="fa-solid fa-user fa-2x"></i></a>
               </li>
           </ul>
          </div>
 </nav>
 <!--panel botones cuadrados-->
- <section class="panal">
+  <section class="panal">
         <div class="container text-center">
             <div class="row mt-2 g-2 g-lg-3">
-              <div class="col mt-5">
-                <div class="p-3 mt-3"><button title="redes" type="button" class="btn btn-secondary btn-lg p-4" data-bs-toggle="modal" data-bs-target="#redesModal"><i class="fa-solid fa-users fa-xl">
-            </i></button> </div>
-              </div>
-              <div class="col">
-                <div class="p-4 mt-5"><button title="banner" type="button" class="btn btn-secondary btn-lg p-4" data-bs-toggle="modal" data-bs-target="#bannerModal"><i class="fa-solid fa-image fa-xl">
-            </i></button> </div>
-              </div>
-              <div class="col">
-                <div class="p-4 mt-5"><button title="info" type="button" class="btn btn-secondary btn-lg p-4" data-bs-toggle="modal" data-bs-target="#infoModal"><i class="fa-solid fa-address-card fa-xl">
-            </i></button> </div>
-              </div>
-              </div>
-
-              <div class="row mt-2 g-2 g-lg-3">
-                <div class="col">
-                  <div class="p-3 mt-5"><button title="edu" type="button" class="btn btn-secondary btn-lg p-4" data-bs-toggle="modal" data-bs-target="#educacionModal"><i class="fa-solid fa-graduation-cap fa-xl">
-            </i></button> </div>
-                </div>
-                <div class="col">
-                  <div class="p-3 mt-5"><button title="exp" type="button" class="btn btn-secondary btn-lg p-4" data-bs-toggle="modal" data-bs-target="#experienciaModal"><i class="fa-solid fa-briefcase fa-xl">
-                     </i>
-                       </button></div>
-                </div>
-                <div class="col">
-                  <div class="p-3 mt-5"><button title="skills" type="button" class="btn btn-secondary btn-lg p-4" data-bs-toggle="modal" data-bs-target="#skillsModal"><i class="fa-solid fa-bars-progress fa-xl">
-            </i></button> </div>
-                </div>
-                </div>
-
-                <div class="row mt-2 g-2 g-lg-3">
-                    <div class="col">
-                      <div class="p-3 mt-5"><button title="proyecto" type="button" class="btn btn-secondary btn-lg p-4" data-bs-toggle="modal" data-bs-target="#proyectoModal"><i class=" fa-sharp fa-solid fa-folder fa-xl">
-            </i></button> </div>
-                    </div>
-                    <div class="col">
-                      
-                    </div>
-                    <div class="col">
-                      
-                    </div>
-                    </div> 
+              <div class="col-sm-4 mt-5"  *ngFor="let boton of botones; let i = index">
+                <div class="p-3 mt-3"><button title={{boton.title}} type="button" class="btn btn-secondary btn-lg p-4" data-bs-toggle="modal" [attr.data-bs-target]="boton.target"><i [ngClass]="boton.icon">
+            </i></button>
+            <!--este pedacito no hacia falta para que aparezca el modal pero por las dudas lo dejo tal vez lo necesite solo es el div de la linea 24-->
+            <div class="modal fade" [attr.id]="boton.target" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
           </div>
-    </section>
-   <app-social></app-social> 
+        </div>
+      </div>
+    </div>
+  </section>
+  <app-social></app-social> 
    <app-carousel></app-carousel>
    <app-info></app-info>
    <app-edu></app-edu>
    <app-exp></app-exp>
    <app-skills></app-skills>
    <app-work></app-work>
-<!--footer creado del index-->
-<app-footer></app-footer>
+    <!--footer creado del index-->
+   <app-footer></app-footer>
 </body>

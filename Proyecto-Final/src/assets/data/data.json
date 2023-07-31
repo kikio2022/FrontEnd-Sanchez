@@ -94,7 +94,53 @@
                     "card": "/assets/IMG/logo2023.png",
                     "link": "https://argentinaprograma.inti.gob.ar",
                     "boton": "#YO PROGRAMO"
+                },
+
+            "dashboard": [
+                {
+                    "id": 0,
+                    "title": "redes",
+                    "icon": "fa-solid fa-users fa-xl",
+                    "target": "#redesModal"
+                },
+                {
+                    "id": 1,
+                    "title": "banner",
+                    "icon": "fa-solid fa-image fa-xl",
+                    "target": "#bannerModal"  
+                },
+                {
+                    "id": 2,
+                    "title": "info",
+                    "icon": "fa-solid fa-address-card fa-xl",
+                    "target": "#infoModal"
+                },
+                {
+                    "id": 3,
+                    "title": "educacion",
+                    "icon": "fa-solid fa-graduation-cap fa-xl",
+                    "target": "#educacionModal"
+                },
+                {
+                    "id": 4,
+                    "title": "experiencia",
+                    "icon": "fa-solid fa-briefcase fa-xl",
+                    "target": "#experienciaModal"
+                },
+                {
+                    "id": 5,
+                    "title": "skills",
+                    "icon": "fa-solid fa-bars-progress fa-xl",
+                    "target": "#skillsModal"
+                },
+                {
+                    "id": 6,
+                    "title": "proyecto",
+                    "icon": "fa-sharp fa-solid fa-folder fa-xl",
+                    "target": "#proyectoModal"
                 }
+
+            ]
 
 
 }

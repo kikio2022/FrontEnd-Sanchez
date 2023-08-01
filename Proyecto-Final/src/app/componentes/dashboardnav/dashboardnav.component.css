@@ -1,0 +1,8 @@
+i.fa-solid.fa-user.fa-2x{  
+    color:#fff;
+    
+    }
+    .list-group{
+        --bs-list-group-bg: transparent;
+        --bs-list-group-border-color: transparent;
+    }

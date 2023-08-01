@@ -1,5 +1,5 @@
-
-   .login { 
+/*Login*/
+.login { 
     background-image: url(/assets/IMG/imagen-3.jpg);
     background-position: center;
     background-size: cover;
@@ -7,3 +7,5 @@
     height: 100vh;
 
 }
+
+  

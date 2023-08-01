@@ -1,32 +1,6 @@
  <body class="dashboard">
- <!--navbar-->
- <nav class="navbar navbar-expand-lg bg-dark fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="/project">
-            <img src="/assets/IMG/logo2023.png" alt="logo" clas="w-100">
-          </a>
-          <ul class="list-group list-group-horizontal">
-            <li class="list-group-item">
-                 <!--boton que envia al login-->
-                 <a title="login" href=""><i class="fa-solid fa-user fa-2x"></i></a>
-              </li>
-          </ul>
-         </div>
-</nav>
-<!--panel botones cuadrados-->
-  <section class="panal">
-        <div class="container text-center">
-            <div class="row mt-2 g-2 g-lg-3">
-              <div class="col-sm-4 mt-5"  *ngFor="let boton of botones; let i = index">
-                <div class="p-3 mt-3"><button title={{boton.title}} type="button" class="btn btn-secondary btn-lg p-4" data-bs-toggle="modal" [attr.data-bs-target]="boton.target"><i [ngClass]="boton.icon">
-            </i></button>
-            <!--este pedacito no hacia falta para que aparezca el modal pero por las dudas lo dejo tal vez lo necesite solo es el div de la linea 24-->
-            <div class="modal fade" [attr.id]="boton.target" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ <app-dashboardnav></app-dashboardnav>
+<app-dashboardpanel></app-dashboardpanel>
   <app-social></app-social> 
    <app-carousel></app-carousel>
    <app-info></app-info>

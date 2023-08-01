@@ -29,6 +29,9 @@ import { ExpComponent } from './modales/exp/exp.component';
 import { SkillsComponent } from './modales/skills/skills.component';
 import { WorkComponent } from './modales/work/work.component';
 import { AccesoComponent } from './modales/acceso/acceso.component';
+import { DashboardpanelComponent } from './componentes/dashboardpanel/dashboardpanel.component';
+import { DashboardnavComponent } from './componentes/dashboardnav/dashboardnav.component';
+import { LoginnavbarComponent } from './componentes/loginnavbar/loginnavbar.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +59,9 @@ import { AccesoComponent } from './modales/acceso/acceso.component';
     SkillsComponent,
     WorkComponent,
     AccesoComponent,
+    DashboardpanelComponent,
+    DashboardnavComponent,
+    LoginnavbarComponent,
   
   ],
   imports: [
